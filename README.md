@@ -16,6 +16,12 @@
 
 This is the post-trade analytics repo in the portfolio. It sits naturally next to the trading-terminal project: one shows the live front-end, and this one shows the execution and hedge review layer that comes after.
 
+## Preview
+
+![Execution and hedge analytics app](assets/execution-home.png)
+
+![Slippage by urgency](figures/slippage_by_urgency.png)
+
 ## What This Project Covers
 
 - implementation shortfall and slippage review
