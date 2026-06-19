@@ -18,7 +18,11 @@
 
 ![Slippage by urgency](figures/slippage_by_urgency.png)
 
-## What This Project Covers
+## Overview
+
+This project focuses on the post-trade side of the workflow: execution cost, hedge behavior, venue quality, and residual risk after an order is sent.
+
+## Highlights
 
 - implementation shortfall and slippage review
 - urgency bucket analysis
@@ -27,7 +31,33 @@
 - residual beta and time-to-flat analysis
 - an order replay panel for reviewing one synthetic order in detail
 
-## Structure
+## Quick Start
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m src.generate_data
+python -m src.analysis
+streamlit run app.py
+```
+
+## Outputs
+
+After running the scripts, you should see:
+
+- `data/synthetic_execution_data.csv`
+- `results/top_line_metrics.csv`
+- `results/urgency_summary.csv`
+- `results/hedge_summary.csv`
+- `results/venue_summary.csv`
+- `results/worst_orders.csv`
+- `results/key_findings.md`
+- `figures/slippage_by_urgency.png`
+- `figures/hedge_effectiveness_scatter.png`
+- `figures/daily_execution_trends.png`
+
+## Project Structure
 
 ```text
 execution-and-hedge-analytics/
@@ -45,35 +75,9 @@ execution-and-hedge-analytics/
     └── ui.py
 ```
 
-## Quick Start
+## Why It Fits The Portfolio
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m src.generate_data
-python -m src.analysis
-streamlit run app.py
-```
-
-## Generated Outputs
-
-After running the scripts, you should see:
-
-- `data/synthetic_execution_data.csv`
-- `results/top_line_metrics.csv`
-- `results/urgency_summary.csv`
-- `results/hedge_summary.csv`
-- `results/venue_summary.csv`
-- `results/worst_orders.csv`
-- `results/key_findings.md`
-- `figures/slippage_by_urgency.png`
-- `figures/hedge_effectiveness_scatter.png`
-- `figures/daily_execution_trends.png`
-
-## Why This Project Matters
-
-This repo focuses on the post-trade side of the workflow:
+This repo extends the trading workflow beyond the front end:
 
 - not just monitoring a live book
 - but also measuring how expensive execution was
