@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Execution And Hedge Analytics</h1>
-  <p><strong>A public-safe post-trade analytics project for reviewing execution cost, urgency, hedge effectiveness, and residual risk.</strong></p>
+  <p><strong>A post-trade analytics project for reviewing execution cost, urgency, hedge effectiveness, and residual risk.</strong></p>
   <p>Designed to complement a trader-front-end demo by showing what happens after the trade is sent.</p>
 </div>
 
@@ -11,10 +11,6 @@
   <code>synthetic trade data</code>
   <code>post-trade workflow</code>
 </p>
-
-## Portfolio Role
-
-This is the post-trade analytics repo in the portfolio. It sits naturally next to the trading-terminal project: one shows the live front-end, and this one shows the execution and hedge review layer that comes after.
 
 ## Preview
 
@@ -75,9 +71,9 @@ After running the scripts, you should see:
 - `figures/hedge_effectiveness_scatter.png`
 - `figures/daily_execution_trends.png`
 
-## Why This Is Useful In A Portfolio
+## Why This Project Matters
 
-This repo helps tell a more credible trader / quant workflow story:
+This repo focuses on the post-trade side of the workflow:
 
 - not just monitoring a live book
 - but also measuring how expensive execution was
@@ -88,9 +84,3 @@ This repo helps tell a more credible trader / quant workflow story:
 
 - All trades, symbols, hedge baskets, and metrics in this repo are synthetic.
 - The goal is to demonstrate analytics and workflow design, not proprietary execution logic.
-
-## Screenshot Strategy
-
-- use the hero plus `Urgency And Cost` as the main README screenshot
-- optionally add the hedge effectiveness scatter as a second image
-- if you want a tighter product feel, crop one screenshot around the order replay panel
