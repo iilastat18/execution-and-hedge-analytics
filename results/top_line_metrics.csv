@@ -1,0 +1,2 @@
+orders,total_notional,avg_slippage_bps,avg_shortfall_bps,avg_completion_rate,avg_time_to_flat,avg_beta_reduction,total_shortfall_usd
+260.0,189780697.21,13.168961538461538,13.168961538461538,96.1781153846154,22.934346153846153,76.01757692307692,253984.56

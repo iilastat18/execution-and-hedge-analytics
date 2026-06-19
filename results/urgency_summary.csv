@@ -1,0 +1,4 @@
+urgency,orders,avg_slippage_bps,avg_shortfall_bps,avg_completion_rate,avg_time_to_flat,avg_beta_reduction
+Normal,86,12.77,12.77,97.48,21.9,76.4
+Patient,87,9.96,9.96,93.82,34.3,83.23
+Urgent,87,16.77,16.77,97.25,12.59,68.42

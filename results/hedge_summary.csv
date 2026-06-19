@@ -1,0 +1,7 @@
+region,hedge_basket,orders,avg_slippage_bps,avg_beta_reduction,avg_time_to_flat,residual_beta_usd,efficiency_score
+US,HXUS_TECH,43,11.92,76.5,23.57,58143.15,88.62
+Asia,HXAS_HIGHBETA,43,12.75,76.3,23.34,82726.49,86.4
+Europe,HXEU_GROWTH,44,13.62,74.94,19.99,80605.39,86.07
+Asia,HXAS,43,13.69,75.63,21.83,91764.1,84.8
+US,HXUS,44,12.79,77.48,26.92,85869.39,84.3
+Europe,HXEU,43,14.24,75.25,21.93,55708.68,83.67
