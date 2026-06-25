@@ -47,7 +47,7 @@ st.markdown(
         "<div class='hero-kicker'>Portfolio Project 06</div>"
         "<div class='hero-title'>Execution And Hedge Analytics</div>"
         "<div class='hero-copy'>"
-        "A public-safe post-trade analytics project focused on implementation shortfall, urgency, execution quality, and hedge effectiveness. "
+        "A post-trade analytics project focused on implementation shortfall, urgency, execution quality, and hedge effectiveness. "
         "It is designed to complement a trader-front-end system by showing what happens after the trade is sent."
         "</div>"
         "<div class='hero-pills'>"

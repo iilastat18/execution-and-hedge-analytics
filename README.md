@@ -87,4 +87,4 @@ This repo extends the trading workflow beyond the front end:
 ## Notes
 
 - All trades, symbols, hedge baskets, and metrics in this repo are synthetic.
-- The goal is to demonstrate analytics and workflow design, not proprietary execution logic.
+- The repo focuses on analytics, review workflows, and execution-quality storytelling.
